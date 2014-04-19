@@ -53,8 +53,8 @@ Launch the daemon with php:
 Known issues
 ------------
 
-* php-amqplib does not have heartbeat implemented. Therefor, the connection will reset after a will.
-* amqplib (amqp.node) seems to fail to send some messages in a queue, even if it says the opposite.
+* php-amqplib does not have heartbeat implemented. Therefore, the connection will reset after a while.
+* amqplib (amqp.node) seems to fail to send some message in a queue, even if it says the opposite.
 * No security or verification.
 
 Disclaimer
